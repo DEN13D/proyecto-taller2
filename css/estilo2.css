@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.header .logo {
+  font-weight: bold;
+  color: #333;
+}
+
+.header .titulo {
+  color: coral;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.seccion {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-image:url(../recursos/girlsen.jpeg) ;
+  height: 400px;
+}
+
+.seccionimg {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.textoimg {
+  max-width: 400px;
+}
+
+.textoimgh2 {
+  color: #003366;
+}
+
+.boton {
+  background-color: #0044cc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 2rem;
+  margin: 40px 0 20px;
+  color: #003366;
+}
+
+.columnas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.column {
+  width: 200px;
+  text-align: center;
+}
+
+.column img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.columnt {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.imagenfinal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-image: url(../recursos/final.jpg) ;
+  
+
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.imagenfinal .left {
+  background-color: #ffd6d6;
+  padding: 30px;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 6px;
+  margin: 10px;
+}
+
